@@ -64,24 +64,22 @@
 @media all and (min-width: 700px) {
   .container {
     flex-direction: row;
-    flex-basis: 100%;
+    row-gap: 20px;
   }
 
   .aside-1 {
     order: 1;
     flex-basis: 300px;
-    align-self: flex-start;
   }
 
   .main {
     order: 2;
-    flex-basis: calc(100% - 540px);
+    flex-grow: 1;
   }
 
   .aside-2 {
     order: 3;
     flex-basis: 200px;
-    align-self: flex-end;
   }
 
   .footer {
